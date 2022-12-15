@@ -1,6 +1,6 @@
 image: node:16.5.0
 pages:
-  stage: deploy
+  stage: gh-pages
   cache:
     key:
       files:
@@ -10,7 +10,7 @@ pages:
       - node_modules/
   script:
     - yarn install
-    - yarn run build
+    - yarn build
     - cp -a dist/. public/
   artifacts:
     paths:
