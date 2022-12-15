@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-
+console.log("test")
 defineProps({
   msg: String,
 })
