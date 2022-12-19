@@ -4,6 +4,35 @@ import Footer from './components/Footer.vue';
 import Profil from './components/Profil.vue';
 import Experiences from './components/Experiences.vue';
 import Diplomas from './components/Diplomas.vue';
+import Timeline from './components/Timeline.vue';
+
+const timeline = [
+  {date:'Déc 2021 - Mars 2023', name:'TESSI RÉUNION', department:'Pôle Solution et Innovation', icon:'code', mission: 
+    {
+      label: 'Développeur',
+      activities: [
+        "Développement d'applications web",
+        "Support aux utilisateurs",
+        "Développement d'automate / Deamon",
+        "Correction de la dette technique",
+        "Vérifier la faisabilité des prototypes logiciels",
+        "Correction de bugs",
+        "Ajour de features",
+      ]
+  }, logo:'/images/tessi.jpeg'},
+  {date:'Déc 2019 - Nov 2021', name:'PÔLE EMPLOI RÉUNION', department:'Appui au pilotage de la performance', icon:'code', mission: 
+    {
+      label: 'Développeur Web Fullstack',
+      activities: [
+        "Développement d'applications web",
+        "Production de données à l'aide d'un ETL",
+        "Amélioration des applications existantes",
+        "Refonte d'application",
+      ]
+    }, logo:'/images/pole_emploi.png'},
+  {date:'Novembre 2021', name:"Concepteur de Système d'Information", department:'3iL et l\'Ecole Régionale Supérieur du Numérique au CCI de La Réunion, ', icon:'user-graduate', logo:'images/3iL.png'},
+  {date:'Juillet 2011', name:'BTS Informatique et Réseau pour l\'Industrie et les Services', icon:'user-graduate', department:'LYCÉE Roland Garros'}
+]
 
 </script>
 
@@ -31,18 +60,23 @@ import Diplomas from './components/Diplomas.vue';
             </a>
           </div>
         </section>
+
+        <section id="suite">
+          <Profil class="my-8 max-w-2xl mx-auto"/>
+          <div class="w-full md:mr-9">
+            <h4 class="uppercase font-semibold my-12 mx-auto text-center w-full">Mon parcours</h4>
+            <Timeline :items="timeline" />
+          </div>
+        </section>
         
-        <section id="suite" class="min-h-screen w-full px-4 mb-8">
+          
+        <section class="min-h-screen w-full px-4 mb-8">
             <div class="mt-8 p-2 flex justify-center">
                 <div class="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl ">
                     <div class="flex flex-col sm:flex-row gap-4">
                       <div class="flex flex-col gap-4 sm:w-1/2">
-                        <Profil />
+                        
                         <Skills />
-                      </div>
-                      <div class="flex flex-col gap-4 sm:w-1/2">
-                        <Experiences />
-                        <Diplomas />
                       </div>
                     </div>
                 </div>
