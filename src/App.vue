@@ -61,9 +61,9 @@ const timeline = [
           </div>
         </section>
 
-        <section id="suite">
+        <section id="suite" class="min-h-screen flex flex-col">
           <Profil class="my-8 max-w-2xl mx-auto"/>
-          <div class="w-full md:mr-9">
+          <div class="w-full h-full md:mr-9 flex-grow">
             <h4 class="uppercase font-semibold my-12 mx-auto text-center w-full">Mon parcours</h4>
             <Timeline :items="timeline" />
           </div>
