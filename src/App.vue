@@ -1,38 +1,50 @@
-<script setup>
+<script>
 import Skills from './components/Skills.vue';
 import Footer from './components/Footer.vue';
 import Profil from './components/Profil.vue';
-import Experiences from './components/Experiences.vue';
-import Diplomas from './components/Diplomas.vue';
 import Timeline from './components/Timeline.vue';
+import {messages} from './messages.js';
+import LangButton from './components/LangButton.vue';
+import Avatar from './components/avatar.vue';
 
-const timeline = [
-  {date:'Déc 2021 - Mars 2023', name:'TESSI RÉUNION', department:'Pôle Solution et Innovation', icon:'code', mission: 
-    {
-      label: 'Développeur',
-      activities: [
-        "Développement d'applications web",
-        "Support aux utilisateurs",
-        "Développement d'automate / Deamon",
-        "Correction de la dette technique",
-        "Vérifier la faisabilité des prototypes logiciels",
-        "Correction de bugs",
-        "Ajour de features",
-      ]
-  }, logo:'/images/tessi.jpeg'},
-  {date:'Déc 2019 - Nov 2021', name:'PÔLE EMPLOI RÉUNION', department:'Appui au pilotage de la performance', icon:'code', mission: 
-    {
-      label: 'Développeur Web Fullstack',
-      activities: [
-        "Développement d'applications web",
-        "Production de données à l'aide d'un ETL",
-        "Amélioration des applications existantes",
-        "Refonte d'application",
-      ]
-    }, logo:'/images/pole_emploi.png'},
-  {date:'Novembre 2021', name:"Concepteur de Système d'Information", department:'3iL et l\'Ecole Régionale Supérieur du Numérique au CCI de La Réunion, ', icon:'user-graduate', logo:'images/3iL.png'},
-  {date:'Juillet 2011', name:'BTS Informatique et Réseau pour l\'Industrie et les Services', icon:'user-graduate', department:'LYCÉE Roland Garros'}
-]
+export default {
+  name: 'app',
+  components:{
+    Skills,
+    Footer,
+    Profil,
+    LangButton,
+    Timeline, Avatar
+  },
+  data(){
+    return{
+      data:{
+        lang:'fr',
+        timeline: messages.fr.timeline,
+        title: messages.fr.title,
+        skills: messages.fr.skills,
+        presentation: messages.fr.presentation,
+      },
+      rotate_angle:"0",
+    }
+  },
+  methods:{
+    changeLang(){
+      this.data.lang = this.data.lang === 'en' ? 'fr' : 'en'
+    }
+  },
+  watch:{
+    'data.lang':{
+      handler(lang){
+        this.rotate_angle = this.rotate_angle === "0" ? "900" : "0";
+        this.data.timeline = messages[lang].timeline;
+        this.data.title = messages[lang].title;
+        this.data.presentation = messages[lang].presentation;
+        this.data.skills = messages[lang].skills;
+      }
+    }
+  }
+}
 
 </script>
 
@@ -40,15 +52,13 @@ const timeline = [
     <div class="flex flex-col justify-center items-center w-full scroll-smooth font-sherif bg-complementary">        
         <section class="w-full h-screen flex flex-col justify-between items-center">
           <div class="w-full h-full">
+            <LangButton :lang="data.lang" @changeLang="changeLang"/>
             <div class="h-1/3 bg-primary w-full"></div>
             <div class="-top-28 w-full relative flex flex-col items-center gap-4 px-4 h-full">
-              <div class="w-60 h-60 overflow-hidden rounded-full border-8 border-complementary">
-                  <img src="/images/P1190065.jpg" class="max-w-full h-full object-cover" alt="photo"/>
-              </div>
-
+              <Avatar :lang="data.lang" :rotate_angle="rotate_angle" @changeLang="changeLang"/>
               <div class="text-center">
                   <h1 class="text-5xl text-center text-gray-700"><strong>Raphaël LEBON</strong></h1>
-                  <h2 class="text-xl mb-12 text-gray-700">Développeur Web / Mobile Full Stack</h2>
+                  <h2 class="text-xl mb-12 text-gray-700">{{data.title}}</h2>
               </div>
             </div>
           </div>
@@ -62,25 +72,17 @@ const timeline = [
         </section>
 
         <section id="suite" class="min-h-screen flex flex-col">
-          <Profil class="my-8 max-w-2xl mx-auto"/>
+          <Profil :presentation="data.presentation" class="my-8 max-w-2xl mx-auto"/>
           <div class="w-full h-full md:mr-9 flex-grow">
-            <h4 class="uppercase font-semibold my-12 mx-auto text-center w-full">Mon parcours</h4>
-            <Timeline :items="timeline" />
+            <h2 class="text-gray-600 uppercase font-semibold my-12 mx-auto text-xl text-center w-full">{{data.lang === 'fr' ? 'Mon parcours' : 'My journey'}}</h2>
+            <Timeline :items="data.timeline" />
           </div>
         </section>
-        
-          
-        <section class="min-h-screen w-full px-4 mb-8">
-            <div class="mt-8 p-2 flex justify-center">
-                <div class="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl ">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                      <div class="flex flex-col gap-4 sm:w-1/2">
-                        
-                        <Skills />
-                      </div>
-                    </div>
-                </div>
-            </div>
+        <section id="suite" class="h-screen flex flex-col  mt-12">
+          <div class="max-w-5xl mx-auto h-full">
+            <Skills :skills="data.skills" :label="data.lang === 'fr' ? 'Compétences' : 'Skills'"/>
+          </div>
+
         </section>
         <Footer class="p-4 sm:p-8" />
     </div>

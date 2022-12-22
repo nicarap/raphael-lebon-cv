@@ -31,3 +31,7 @@ h1 {
     background-color: #ffffff;
   }
 }
+
+.a {
+  animation: bounce 1s infinite;
+}

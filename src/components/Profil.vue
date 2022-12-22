@@ -1,15 +1,20 @@
-<script setup>
+<script>
 import Card from './Card.vue';
+
+export default {
+    name: 'Presentation',
+    components: { Card },
+    props:{
+        presentation: Object,
+    }
+}
 
 </script>
 
 <template>
-    <Card title="Profil personnel">        
-        <p class="mb-3 font-normal">
-            Dynamique, ambitieux et curieux, je ne recule pas devant les obstacles !
-        </p>
-        <p class="mb-3 font-normal">
-            Avec 3 ans d'expériences dans le domaine de l'informatique, je suis à la recherche d'un emploi de développeur web.
+    <Card :title="presentation.label">        
+        <p v-for="text in presentation.items" class="mb-3 font-normal">
+            {{ text}}
         </p>
     </Card>
 
