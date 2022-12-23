@@ -63,7 +63,7 @@ export default {
             </div>
           </div>
           <div>
-            <a href="#suite" class="m-2">
+            <a href="#skills" class="m-2">
                 <div class="p-2 h-10 w-10 flex justify-center animate-bounce border-2 rounded-full border-primary">
                     <fa class="text-primary" :icon="['fa', 'chevron-down']" />
                 </div>
@@ -71,18 +71,18 @@ export default {
           </div>
         </section>
 
-        <section id="suite" class="min-h-screen flex flex-col">
-          <Profil :presentation="data.presentation" class="my-8 max-w-2xl mx-auto"/>
+        <section id="skills" class="min-h-screen flex flex-col gap-4">
+          <Profil :presentation="data.presentation" class="my-8 max-w-2xl mx-auto" :label="data.lang === 'fr' ? 'Profil personnel' : 'Personal profil'"/>
+          <div class="max-w-5xl mx-auto">
+            <Skills :skills="data.skills" :label="data.lang === 'fr' ? 'Compétences principales' : 'Mainly skills'"/>
+          </div>
+
+        </section>
+        <section class="min-h-screen flex flex-col mb-12">
           <div class="w-full h-full md:mr-9 flex-grow">
             <h2 class="text-gray-600 uppercase font-semibold my-12 mx-auto text-xl text-center w-full">{{data.lang === 'fr' ? 'Mon parcours' : 'My journey'}}</h2>
             <Timeline :items="data.timeline" />
           </div>
-        </section>
-        <section id="suite" class="h-screen flex flex-col  mt-12">
-          <div class="max-w-5xl mx-auto h-full">
-            <Skills :skills="data.skills" :label="data.lang === 'fr' ? 'Compétences' : 'Skills'"/>
-          </div>
-
         </section>
         <Footer class="p-4 sm:p-8" />
     </div>
