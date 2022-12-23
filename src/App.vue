@@ -72,8 +72,8 @@ export default {
         </section>
 
         <section id="skills" class="min-h-screen flex flex-col gap-4">
-          <Profil :presentation="data.presentation" class="my-8 max-w-2xl mx-auto" :label="data.lang === 'fr' ? 'Profil personnel' : 'Personal profil'"/>
-          <div class="max-w-5xl mx-auto">
+          <Profil :presentation="data.presentation" class="mt-8 mx-auto" :label="data.lang === 'fr' ? 'Profil personnel' : 'Personal profil'"/>
+          <div class="max-w-4xl mx-auto">
             <Skills :skills="data.skills" :label="data.lang === 'fr' ? 'Compétences principales' : 'Mainly skills'"/>
           </div>
 

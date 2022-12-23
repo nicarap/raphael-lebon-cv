@@ -12,7 +12,7 @@ defineProps({
 
 <template>
     <div class="max-w-7xl px-6 flex flex-col justify-between mb-6">
-        <h2 class="text-gray-600 uppercase font-semibold mt-12 mx-auto text-xl text-center w-full">{{label}}</h2>
+        <h2 class="text-gray-600 uppercase font-semibold mx-auto text-xl text-center w-full">{{label}}</h2>
 
         <div class="mt-12">
             <div class="flex gap-4 flex-wrap justify-center">

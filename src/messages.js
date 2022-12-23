@@ -27,6 +27,9 @@ const messages = {
                     "Développement d'automate / Deamon",
                     "Correction de la dette technique",
                     "Vérifier la faisabilité des prototypes logiciels",
+                    "Rédaction de documents utilisateurs",
+                    "Réalisation de proposition commercial en réponse aux appels d'offre",
+                    "Création de cahier des charges et de spécificités",
                     "Correction de bugs",
                     "Ajout de features",
                 ]
@@ -37,6 +40,7 @@ const messages = {
                 activities: [
                     "Développement d'applications web",
                     "Production de données à l'aide d'un ETL",
+                    "Automatisation de processus",
                     "Amélioration des applications existantes",
                     "Refonte d'application",
                 ]
@@ -47,8 +51,7 @@ const messages = {
                 label: "Assistant d'éducation",
                 activities: [
                     "Encadrement et surveillance des élèves",
-                    "Gestion de situation de crise",
-                    "Aide à l'utilisation des nouvelles technologies, aide à la documentation",
+                    "Gestion de situations de crise",
                     "Aide à l'accueil et l'intégration des élèves",
                 ]
             }},
@@ -57,7 +60,7 @@ const messages = {
                 label: "Equipier polyvalent",
                 activities: [
                     "Accueillir et servire les clients",
-                    "Préparation des hamburger dans le respect des normes d'hygiènes",
+                    "Préparation des hamburgers dans le respect des normes d'hygiènes",
                     "Plonge, nettoyage des locaux",
                 ]
             }},
@@ -112,6 +115,9 @@ const messages = {
                     "Deamon development",
                     "Correction of technical debt",
                     "Production of proof of concept",
+                    "Writing user documents",
+                    "Realization of commercial proposal in response to calls for tenders",
+                    "Creation of specifications and specificities",
                     "Bug fix",
                     "Addition of features",
                 ]
@@ -122,6 +128,7 @@ const messages = {
                 activities: [
                     "Web app development",
                     "Data production using an ETL",
+                    "Process Automation",
                     "Improvement of existing applications",
                     "Application redesign",
                 ]
@@ -133,7 +140,6 @@ const messages = {
                 activities: [
                     "Supervision of students",
                     "Crisis situation management",
-                    "Help with the use of new technologies",
                     "Assistance with the reception and integration of students",
                 ]
             }},
