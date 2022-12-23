@@ -33,7 +33,7 @@ const messages = {
                     "Correction de bugs",
                     "Ajout de features",
                 ]
-            }, logo:'/images/tessi.jpeg'},
+            }, logo:'images/tessi.jpeg'},
             {date:'Nov 2019 - Nov 2021', name:'PÔLE EMPLOI RÉUNION', department:'Appui au pilotage de la performance', icon:'code', mission: 
                 {
                 label: 'Développeur Web Fullstack',
@@ -44,7 +44,7 @@ const messages = {
                     "Amélioration des applications existantes",
                     "Refonte d'application",
                 ]
-                }, logo:'/images/pole_emploi.png'},
+                }, logo:'images/pole_emploi.png'},
             {date:'Novembre 2019', name:"Concepteur de Système d'Information", department:'3iL et l\'Ecole Régionale Supérieur du Numérique au CCI de La Réunion', icon:'user-graduate', logo:'images/3iL.png', badge:true},
             {date:'Nov 2012 - Août 2018', name:"Rectorat de La Réunion", department:'Collège Juliette Dodu', icon:'user-tie', logo:'images/rectorat.png', mission: 
                 {
@@ -121,7 +121,7 @@ const messages = {
                     "Bug fix",
                     "Addition of features",
                 ]
-            }, logo:'/images/tessi.jpeg'},
+            }, logo:'images/tessi.jpeg'},
             {date:'Nov 2019 - Nov 2021', name:'PÔLE EMPLOI RÉUNION', department:'Support for performance management', icon:'code', mission: 
                 {
                 label: 'Developer Web Fullstack',
@@ -132,7 +132,7 @@ const messages = {
                     "Improvement of existing applications",
                     "Application redesign",
                 ]
-                }, logo:'/images/pole_emploi.png'},
+                }, logo:'images/pole_emploi.png'},
             {date:'November 2019', name:"Information System Designer", department:'3iL and l\'Ecole Régionale Supérieur du Numérique at CCI de La Réunion, ', icon:'user-graduate', logo:'images/3iL.png', badge:true},
             {date:'Nov 2012 - August 2018', name:"Rectorate of La Réunion", department:'Middle school Juliette Dodu', icon:'user-tie', logo:'images/rectorat.png', mission: 
                 {
