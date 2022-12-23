@@ -11,10 +11,6 @@ module.exports = {
         secondary: '#12ADC1',
         complementary: '#FDD037',
       },
-      backgroundImage: {
-        'french-flag': "url('/images/FrenchFlag.svg')",
-        'uk-flag': "url('/images/UKFlag.svg')",
-      }
     },
   },
   plugins: [],
