@@ -7,14 +7,14 @@ const messages = {
             items:[
                 "Dynamique, ambitieux et curieux, je ne recule pas devant les obstacles !",
                 "Vivant à l'île de La Réunion, Département d'Outre Mer français, et exercant en tant que Développeur, "+
-                    "je suis à la recherche de nouvelles opportunités. J'ai pour projet de quitter mon île natale pour "+
-                    "me faire de nouvelles expériences et relever de nouveaux défis !",
+                    "je suis à la recherche de nouvelles opportunités. J'ai pour projet de quitter mon île natale afin "+
+                    "d'acquérir de nouvelles expériences et relever de nouveaux défis !",
                 "J'éxerce depuis plus de 3 ans le métier de Développeur (web et logiciel) "+
-                    "où j'ai eu l'occasion de développer plusieurs applications web, avec le Framework Laravel et Vue.js en mode SPA à l'aide de Inertia.js. "+
+                    "où j'ai eu l'occasion de développer plusieurs applications web, avec le Framework Laravel et Vue.js en mode SPA à l'aide d'Inertia.js. "+
                     "J'ai également pu créer une application Form scratch, d'autres en full js avec le couple Node.js et React.js. "+
-                    "De plus, j'ai également travailler à l'automatisation de tâches répétitives et chronophages avec les technologies Java et VBA.",
-                "Mes expériences m'ont beaucoup apporté jusqu'à maintenant et, puisque le métier de développeur est en perpétuel évolution, "+
-                    "je suis très motivé à poursuivre mon apprentissage dans un nouveaux pays."
+                    "De plus, j'ai également travaillé à l'automatisation de tâches répétitives et chronophages avec les technologies Java et VBA.",
+                "Mes expériences m'ont beaucoup apporté jusqu'à maintenant et, puisque le métier de développeur est en perpétuelle évolution, "+
+                    "je suis très motivé à poursuivre mon apprentissage dans un nouveau pays."
             ],
         },
         timeline: [
