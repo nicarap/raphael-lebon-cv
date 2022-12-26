@@ -37,7 +37,10 @@ defineProps({
             <ul v-if="item.mission?.activities && orientation === 'rigth'" class="mb-4 list-inside list-disc marker:text-complementary ">
                 <li v-for="activity in item.mission.activities">{{activity}}</li>
             </ul>
-            <ul v-if="item.mission?.activities && orientation !== 'rigth'" class="mb-4 list-inside list-disc text-right marker:text-complementary" style="direction:rtl;">
+            <ul v-if="item.mission?.activities && orientation !== 'rigth'" class="hidden sm:block mb-4 list-inside list-disc text-right marker:text-complementary" style="direction:rtl;">
+                <li v-for="activity in item.mission.activities">{{activity}}</li>
+            </ul>
+            <ul v-if="item.mission?.activities && orientation !== 'rigth'" class="sm:hidden mb-4 list-inside list-disc text-left marker:text-complementary">
                 <li v-for="activity in item.mission.activities">{{activity}}</li>
             </ul>
         </div>
