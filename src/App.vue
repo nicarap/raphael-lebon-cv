@@ -52,7 +52,7 @@ export default {
     <div class="flex flex-col justify-center items-center w-full scroll-smooth font-sherif bg-complementary">        
         <section class="w-full h-screen flex flex-col justify-between items-center">
           <div class="w-full h-full">
-            <LangButton :lang="data.lang" @changeLang="changeLang"/>
+            <LangButton class="hidden sm:block" :lang="data.lang" @changeLang="changeLang"/>
             <div class="h-1/3 bg-primary w-full"></div>
             <div class="-top-28 w-full relative flex flex-col items-center gap-4 px-4 h-full">
               <Avatar :lang="data.lang" :rotate_angle="rotate_angle" @changeLang="changeLang"/>

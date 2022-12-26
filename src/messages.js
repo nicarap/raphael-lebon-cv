@@ -8,11 +8,11 @@ const messages = {
                 "Dynamique, ambitieux et curieux, je ne recule pas devant les obstacles !",
                 "Vivant à l'île de La Réunion, Département d'Outre Mer français, et exercant en tant que Développeur, "+
                     "je suis à la recherche de nouvelles opportunités. J'ai pour projet de quitter mon île natale pour "+
-                    "me faire de nouvelles expériences et relevé de nouveaux défis !",
+                    "me faire de nouvelles expériences et relever de nouveaux défis !",
                 "J'éxerce depuis plus de 3 ans le métier de Développeur (web et logiciel) "+
                     "où j'ai eu l'occasion de développer plusieurs applications web, avec le Framework Laravel et Vue.js en mode SPA à l'aide de Inertia.js. "+
-                    "J'ai également pu créer une application Form scratch, d'autres en full js avec Node.js et React.js ou encore avec Windev. "+
-                    "De plus, j'ai egélament travaillé à l'automatisation de tâches répétitive et chronophage avec les technologies Java et VBA.",
+                    "J'ai également pu créer une application Form scratch, d'autres en full js avec le couple Node.js et React.js. "+
+                    "De plus, j'ai également travailler à l'automatisation de tâches répétitives et chronophages avec les technologies Java et VBA.",
                 "Mes expériences m'ont beaucoup apporté jusqu'à maintenant et, puisque le métier de développeur est en perpétuel évolution, "+
                     "je suis très motivé à poursuivre mon apprentissage dans un nouveaux pays."
             ],
@@ -28,7 +28,7 @@ const messages = {
                     "Correction de la dette technique",
                     "Vérifier la faisabilité des prototypes logiciels",
                     "Rédaction de documents utilisateurs",
-                    "Réalisation de proposition commercial en réponse aux appels d'offre",
+                    "Réalisation de propositions commerciales en réponse aux appels d'offre",
                     "Création de cahier des charges et de spécificités",
                     "Correction de bugs",
                     "Ajout de features",
@@ -95,11 +95,11 @@ const messages = {
             items: [
                 "Dynamic, ambitious and curious, I do not back down from obstacles!",
                 "Living on Reunion Island, French Overseas Department, and working as a Developer, "+
-                                    "I am looking for new new opportunities. I plan to leave my native island for "+
+                                    "I am looking for new opportunities. I plan to leave my native island for "+
                                     "To gain new experiences and take on new challenges!",
                 "I have been working as a Developer (web and software) for more than 3 years "+
                 "where I had the opportunity to develop several web applications, with the Laravel Framework and Vue.js in SPA mode using Inertia.js. "+
-                "I was also able to create a Form scratch application, others in full js with Node.js and React.js or even with Windev. "+
+                "I was also able to create a Form scratch application, others in full js with the couple Node.js and React.js. "+
                 "In addition, I also worked on the automation of repetitive and time-consuming tasks with Java and VBA technologies.",
                 "My experiences have brought me a lot so far and, since the developer profession is constantly evolving, "+
                 "I am very motivated to continue my learning in a new country."
