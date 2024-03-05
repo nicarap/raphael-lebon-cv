@@ -1,39 +1,98 @@
 <script setup>
 
-defineProps({
-    skills:{
-        type:Object,
-        default:{}
-    },
-    label:String,
-})
-
 </script>
 
 <template>
-    <div class="max-w-7xl px-6 flex flex-col justify-between mb-6">
-        <h2 class="text-gray-600 uppercase font-semibold mx-auto text-xl text-center w-full">{{label}}</h2>
-
-        <div class="mt-12">
-            <div class="flex gap-4 flex-wrap justify-center">
-                <div v-for="technology in skills.technologies.items" class="py-2 px-4 rounded-md bg-primary text-white" >
-                    <span>{{ technology }}</span>
-                </div>
-                <div v-for="utility in skills.utilities.items" class="py-2 px-4 rounded-md bg-primary text-white" >
-                    <span>{{ utility }}</span>
-                </div>
-            </div>
-        </div>
-        <!-- <h5 class="text-gray-500 uppercase text-md font-bold mb-0">Savoir être</h5>
-        <p class="mb-4">
-            Bienveillant, facilitateur, autonome
-        </p>
-        <h5 class="text-gray-500 uppercase text-md font-bold mb-0">Savoir faire</h5>
-        <ul class="mb-4 list-inside list-disc marker:text-complementary">
-            <li>Analyser des problématiques</li>
-            <li>Veille technique et informative</li>
-            <li>Recherche de solution, debugger une application</li>
-        </ul> -->
+  <div class="w-full mx-auto border border-primary-100 border-x-0 bg-white overflow-hidden">
+    <div class="w-full py-4 inline-flex flex-nowrap h-full">
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
+        </li>
+      </ul>
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
+        </li>
+      </ul>
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
+        </li>
+      </ul>
     </div>
+
+    <div class="bg-primary-900 pt-16 pb-32">
+      <div class="max-w-7xl mx-auto">
+        <h3 class="text-5xl mb-4 text-primary-200 text-center ">Les chiffres clés</h3>
+        <div class="flex mt-16 gap-16 justify-center">
+          <div>
+            <div class="text-5xl text-primary-200">{{ parseInt(new Date().getFullYear()) - 2020 }}</div><span class="text-primary-200 font-sans">Années d'expérience</span>
+          </div>
+          <div>
+            <div class="text-5xl text-primary-200">10+</div><span class="text-primary-200 font-sans">Application Web livrée</span>
+          </div>
+          <div>
+            <div class="text-5xl text-primary-200">3</div><span class="text-primary-200 font-sans">Nombre de projet travaillé</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 </template>
