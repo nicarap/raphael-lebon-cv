@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation.vue";
 import Contact from "./components/Contact.vue";
 import Home from "./components/Home.vue";
 import Reviews from "./components/Reviews.vue";
+import Projects from "./components/Projects.vue";
 
 </script>
 
@@ -18,11 +19,7 @@ import Reviews from "./components/Reviews.vue";
     <Profil />
     <Skills />
     <Reviews />
-
-    <section id="portefolio" class="min-h-screen flex flex-col gap-4">
-      <span class="text-primary-500">Portefolio</span>
-    </section>
-
+    <Projects />
     <Contact />
     <Footer />
   </div>
