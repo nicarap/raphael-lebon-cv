@@ -1,10 +1,9 @@
 <script setup>
-
 </script>
 
 <template>
   <nav class="w-full flex items-center group z-50 bg-primary-700 shadow x-2 py-8 sticky top-0 max-h-[7vh] px-16">
-    <a class="text-light-gold group:aria-disabled:text-blue-500 font-semibold text-3xl leading-4 no-underline page-scroll"
+    <a class="text-light-gold text-gray-100 font-semibold text-3xl leading-4 no-underline page-scroll"
       href="index.html"><span class="hidden md:inline">RL</span></a>
     <div class="max-w-7xl h-full mx-auto sm:px-4 lg:px-8 flex flex-wrap items-center lg:flex-nowrap">
 
@@ -29,19 +28,19 @@
         <ul
           class="justify-center pl-0 mt-3 mb-2 ml-auto flex  gap-12 flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row *:tracking-wider">
           <li class=" leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="page-scroll font-semibold text-xl uppercase nav-link p-2 block md:group-aria-disabled:text-white"
+            <a class="page-scroll font-semibold text-xl uppercase nav-link p-2 block text-gray-100"
               href="#home">Accueil</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll md:group-aria-disabled:text-white"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
               href="#reviews">Témoignage</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll md:group-aria-disabled:text-white"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
               href="#portefolio">Portefolio</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll md:group-aria-disabled:text-white"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
               href="#contact">Contact</a>
           </li>
         </ul>

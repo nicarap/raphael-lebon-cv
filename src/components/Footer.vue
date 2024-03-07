@@ -13,7 +13,7 @@ let date = new Date()
 
         <div class="copyright">
             <div class="w-full p-4 mx-auto text-center">
-                <div class="text-xs tracking-wide font-sans font-semibold py-1">
+                <div class="text-xs text-primary-200 tracking-wide font-sans font-semibold py-1">
                     Copyright © {{ date.getFullYear() }} Propulsed by Raphaël LEBON, Web Developper.
                 </div>
             </div>
