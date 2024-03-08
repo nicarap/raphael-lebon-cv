@@ -28,19 +28,19 @@
         <ul
           class="justify-center pl-0 mt-3 mb-2 ml-auto flex  gap-12 flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row *:tracking-wider">
           <li class=" leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="page-scroll font-semibold text-xl uppercase nav-link p-2 block text-gray-100"
+            <a class="page-scroll font-semibold text-xl uppercase nav-link p-2 block text-gray-100 hover:text-primary-950"
               href="#home">Accueil</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100 hover:text-primary-950"
               href="#reviews">Témoignage</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100 hover:text-primary-950"
               href="#portefolio">Portefolio</a>
           </li>
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
-            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100"
+            <a class="nav-link font-semibold text-xl uppercase p-2 block page-scroll text-gray-100 hover:text-primary-950"
               href="#contact">Contact</a>
           </li>
         </ul>

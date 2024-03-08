@@ -85,15 +85,18 @@
         <div class="flex mt-16 gap-16 justify-center">
           <div>
             <div class="text-5xl text-primary-200">{{ parseInt(new Date().getFullYear()) - 2020 }}</div><span
-              class="text-primary-200 font-sans">Années d'expérience</span>
+              class="text-primary-200 font-sans">Années d'expérience mise au service de Pôle Emploi et TESSI
+              Réunion</span>
           </div>
           <div>
-            <div class="text-5xl text-primary-200">10+</div><span class="text-primary-200 font-sans">Application Web
-              livrée</span>
+            <div class="text-5xl text-primary-200">10+</div><span class="text-primary-200 font-sans">
+              Application Web livrée
+            </span>
           </div>
           <div>
-            <div class="text-5xl text-primary-200">3</div><span class="text-primary-200 font-sans">Nombre de projet
-              travaillé</span>
+            <div class="text-5xl text-primary-200">3</div><span class="text-primary-200 font-sans">
+              Nombre de projet travaillé
+            </span>
           </div>
         </div>
       </div>
