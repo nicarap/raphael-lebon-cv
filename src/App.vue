@@ -5,7 +5,6 @@ import Profil from './components/Profil.vue';
 import Navigation from "./components/Navigation.vue";
 import Contact from "./components/Contact.vue";
 import Home from "./components/Home.vue";
-import Reviews from "./components/Reviews.vue";
 import Projects from "./components/Projects.vue";
 
 </script>
@@ -18,7 +17,6 @@ import Projects from "./components/Projects.vue";
 
     <Profil />
     <Skills />
-    <Reviews />
     <Projects />
     <Contact />
     <Footer />

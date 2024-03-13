@@ -20,7 +20,7 @@ module.exports = {
           '900': '#233f57',
           '950': '#182939',
         },
-        secondary: '#F1FADA',
+        secondary: '#d8bd73',
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',

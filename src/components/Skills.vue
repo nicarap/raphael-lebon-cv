@@ -8,78 +8,78 @@
       <ul
         class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
-        </li>
-      </ul>
-      <ul
-        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
         </li>
       </ul>
       <ul
         class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/php.svg" alt="php" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/html.svg" alt="html" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/vue.svg" alt="vueJs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/react.svg" alt="react" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/nodejs.svg" alt="nodejs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/laravel.svg" alt="laravel" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/java.svg" alt="java" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
+        </li>
+      </ul>
+      <ul
+        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
         </li>
       </ul>
     </div>
 
-    <div id="reviews" class="bg-primary-900 pt-16 pb-32 h-[30rem] pt-[10vh]">
+    <!-- <div id="reviews" class="bg-primary-900 pt-16 pb-32 h-[30rem] pt-[10vh]">
       <div class="max-w-7xl mx-auto">
         <h3 class="text-5xl mb-4 text-primary-200 text-center ">Les chiffres clés</h3>
         <div class="flex mt-16 gap-16 justify-center">
@@ -100,7 +100,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>

@@ -10,6 +10,7 @@ import {
     faChevronUp,
     faCode,
     faEnvelope,
+    faFileInvoice,
     faLocationDot,
     faPhone,
     faThumbsUp,
@@ -20,7 +21,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faChevronDown, faChevronLeft, faWandMagicSparkles, faThumbsUp, faCode, faChevronRight, faChevronUp, faLinkedinIn, faPhone, faEnvelope, faLocationDot, faLinkedin, faUserGraduate, faCode, faUserTie, faBurger, faCertificate)
+library.add(faChevronDown, faChevronLeft, faFileInvoice, faWandMagicSparkles, faThumbsUp, faCode, faChevronRight, faChevronUp, faLinkedinIn, faPhone, faEnvelope, faLocationDot, faLinkedin, faUserGraduate, faCode, faUserTie, faBurger, faCertificate)
 
 createApp(App)
     .component('fa', FontAwesomeIcon)
