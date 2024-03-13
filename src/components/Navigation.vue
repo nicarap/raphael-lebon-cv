@@ -61,7 +61,7 @@ const openNavBar = () => {
       class="max-w-7xl h-full mx-auto sm:px-4 lg:px-8 flex flex-wrap items-center lg:flex-nowrap"
     >
 
-      <button 
+      <button aria-label="Open navigation bar"
         class="background-transparent rounded text-xl w-5 h-5 leading-none hover:no-underline focus:no-underline lg:hidden fill-secondary"
         type="button"
         @click="openNavBar"

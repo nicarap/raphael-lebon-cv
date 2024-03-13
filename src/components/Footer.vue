@@ -5,7 +5,7 @@ let date = new Date()
 <template>
     <div class="bg-primary-700 relative w-full">
 
-        <a href="#home" title="Retour en haut de la page">
+        <a href="#home" title="Retour en haut de la page" type="button">
             <div class="fixed bottom-8 right-10 z-50">
                 <fa class="text-secondary rounded-full p-2 bg-primary-500" :icon="['fa', 'chevron-up']" />
             </div>
