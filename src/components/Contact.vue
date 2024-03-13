@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section id="contact" class="px-6 w-full bg-primary-200 py-32 min-h-[95vh]">
+  <section id="contact" class="px-6 w-full bg-primary-100 py-32 min-h-[95vh]">
     <div class="relative  mx-auto max-w-2xl w-full">
 
       <h3 class="text-4xl mb-4 text-center text-primary-800">Contact</h3>

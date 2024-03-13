@@ -61,7 +61,7 @@ const openNavBar = () => {
       class="max-w-7xl h-full mx-auto sm:px-4 lg:px-8 flex flex-wrap items-center lg:flex-nowrap"
     >
 
-      <button
+      <button 
         class="background-transparent rounded text-xl w-5 h-5 leading-none hover:no-underline focus:no-underline lg:hidden fill-secondary"
         type="button"
         @click="openNavBar"
@@ -84,7 +84,7 @@ const openNavBar = () => {
         class="md:top-0 top-12 flex-1 lg:items-center fixed right-0 w-1/2 h-[93vh] md:h-auto md:relative bg-primary-700 transition-all duration-200 md:translate-x-0"  :class="[open ? 'translate-x-0' : 'translate-x-full']"
       >
         <ul
-          class="justify-center pl-0 mb-2 ml-auto flex gap-2 flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row *:tracking-wider h-full"
+          class="justify-center pl-0 mb-2 ml-auto flex gap-2 flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row *:tracking-wider h-full text-primary-950"
         >
           <li class="leading-3 transition-all duration-100 hover:text-light-gold">
             <a

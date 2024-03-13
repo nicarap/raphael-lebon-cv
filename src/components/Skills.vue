@@ -1,80 +1,83 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  <div class="w-full mx-auto border border-primary-100 border-x-0 bg-white overflow-hidden">
+  <div
+    class="w-full mx-auto border border-primary-100 border-x-0 bg-white overflow-hidden"
+  >
     <div class="w-full py-4 inline-flex flex-nowrap h-full">
       <ul
-        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+      >
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
-        </li>
-      </ul>
-      <ul
-        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
-        </li>
-        <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" loading="lazy"/>
         </li>
       </ul>
       <ul
-        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+      >
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" loading="lazy"/>
         </li>
         <li>
-          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" />
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" loading="lazy"/>
+        </li>
+      </ul>
+      <ul
+        class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
+      >
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/php.svg" alt="php" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/html.svg" alt="html" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/vue.svg" alt="vueJs" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/react.svg" alt="react" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/nodejs.svg" alt="nodejs" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/laravel.svg" alt="laravel" loading="lazy"/>
+        </li>
+        <li>
+          <img class="h-14 p-2 flex-1" src="/images/skills/java.svg" alt="java" loading="lazy"/>
         </li>
       </ul>
     </div>
@@ -101,6 +104,5 @@
         </div>
       </div>
     </div> -->
-
   </div>
 </template>

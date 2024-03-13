@@ -3,9 +3,9 @@
 <template>
   <section
     id="home"
-    class="w-full relative sm:pt-16 md:pt-32 2xl:pt-44 h-[90vh] border-0 border-b-8 border-primary-950 flex flex-col justify-between items-center"
+    class="w-full relative sm:pt-16 md:pt-32 2xl:pt-44 h-[90vh] border-0 border-b-8 bg-primary-500 border-primary-950 flex flex-col justify-between items-center"
     style="
-      background-image: url('/images/header/background.png');
+      background-image: url('/images/header/background.webp');
       background-size: cover;
       background-attachment: fixed;
     "
